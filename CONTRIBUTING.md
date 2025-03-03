@@ -15,11 +15,6 @@ Everything related to the browser extension can be found in `/src`: the `manifes
 ### Specialities in working with XCode
 XCode is setup to use the `/build` directory as src.
 When you build the app in XCode `npm run build` is automatically run (as a build phase)
-Everything related to the browser extension can be found in `/src`: the `manifest.json`, the `background.js`, and so on. Content scripts are in `/src/contentScripts`. In `/src/freshContent` you can find newly created content that is used in TUfast, e.g. the popup or settings-page. `/docs` does _not_ contain documentation for the code, but further instructions for users of TUfast.
-
-### Specialities in working with XCode
-XCode is setup to use the `/build` directory as src.
-When you build the app in XCode `npm run build` is automatically run (as a build phase)
 
 Steps to contribute:
 
