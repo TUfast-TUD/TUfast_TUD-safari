@@ -6,6 +6,7 @@
   "optional_permissions": ["tabs", "notifications", "cookies", "webRequest", "webRequestBlocking"],
   "host_permissions": ["*://*/"],
   "background": {
+    "service_worker": "background.js",
     "scripts": ["background.js"],
     "type": "module"
   },
