@@ -31,8 +31,6 @@
 		F19C629E2D733C320098B556 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19C625C2D733C320098B556 /* SafariWebExtensionHandler.swift */; };
 		F19C62BB2D733C320098B556 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = F19C62B02D733C320098B556 /* background.js */; };
 		F19C62BC2D733C320098B556 /* snowpack in Resources */ = {isa = PBXBuildFile; fileRef = F19C62B12D733C320098B556 /* snowpack */; };
-		F19C62BD2D733C320098B556 /* manifest.firefox.json in Resources */ = {isa = PBXBuildFile; fileRef = F19C62B22D733C320098B556 /* manifest.firefox.json */; };
-		F19C62BE2D733C320098B556 /* manifest.chrome.json in Resources */ = {isa = PBXBuildFile; fileRef = F19C62B32D733C320098B556 /* manifest.chrome.json */; };
 		F19C62BF2D733C320098B556 /* styles in Resources */ = {isa = PBXBuildFile; fileRef = F19C62B42D733C320098B556 /* styles */; };
 		F19C62C02D733C320098B556 /* contentScripts in Resources */ = {isa = PBXBuildFile; fileRef = F19C62B52D733C320098B556 /* contentScripts */; };
 		F19C62C12D733C320098B556 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = F19C62B62D733C320098B556 /* manifest.json */; };
@@ -42,8 +40,6 @@
 		F19C62C52D733C320098B556 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = F19C62BA2D733C320098B556 /* assets */; };
 		F19C62C62D733C320098B556 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = F19C62B02D733C320098B556 /* background.js */; };
 		F19C62C72D733C320098B556 /* snowpack in Resources */ = {isa = PBXBuildFile; fileRef = F19C62B12D733C320098B556 /* snowpack */; };
-		F19C62C82D733C320098B556 /* manifest.firefox.json in Resources */ = {isa = PBXBuildFile; fileRef = F19C62B22D733C320098B556 /* manifest.firefox.json */; };
-		F19C62C92D733C320098B556 /* manifest.chrome.json in Resources */ = {isa = PBXBuildFile; fileRef = F19C62B32D733C320098B556 /* manifest.chrome.json */; };
 		F19C62CA2D733C320098B556 /* styles in Resources */ = {isa = PBXBuildFile; fileRef = F19C62B42D733C320098B556 /* styles */; };
 		F19C62CB2D733C320098B556 /* contentScripts in Resources */ = {isa = PBXBuildFile; fileRef = F19C62B52D733C320098B556 /* contentScripts */; };
 		F19C62CC2D733C320098B556 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = F19C62B62D733C320098B556 /* manifest.json */; };
@@ -121,8 +117,6 @@
 		F19C62902D733C320098B556 /* TUfast-safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "TUfast-safari.entitlements"; sourceTree = "<group>"; };
 		F19C62B02D733C320098B556 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = ../../build/background.js; sourceTree = "<group>"; };
 		F19C62B12D733C320098B556 /* snowpack */ = {isa = PBXFileReference; lastKnownFileType = folder; name = snowpack; path = ../../build/snowpack; sourceTree = "<group>"; };
-		F19C62B22D733C320098B556 /* manifest.firefox.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.firefox.json; path = ../../build/manifest.firefox.json; sourceTree = "<group>"; };
-		F19C62B32D733C320098B556 /* manifest.chrome.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.chrome.json; path = ../../build/manifest.chrome.json; sourceTree = "<group>"; };
 		F19C62B42D733C320098B556 /* styles */ = {isa = PBXFileReference; lastKnownFileType = folder; name = styles; path = ../../build/styles; sourceTree = "<group>"; };
 		F19C62B52D733C320098B556 /* contentScripts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = contentScripts; path = ../../build/contentScripts; sourceTree = "<group>"; };
 		F19C62B62D733C320098B556 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../build/manifest.json; sourceTree = "<group>"; };
@@ -263,8 +257,6 @@
 			children = (
 				F19C62B02D733C320098B556 /* background.js */,
 				F19C62B12D733C320098B556 /* snowpack */,
-				F19C62B22D733C320098B556 /* manifest.firefox.json */,
-				F19C62B32D733C320098B556 /* manifest.chrome.json */,
 				F19C62B42D733C320098B556 /* styles */,
 				F19C62B52D733C320098B556 /* contentScripts */,
 				F19C62B62D733C320098B556 /* manifest.json */,
@@ -444,11 +436,9 @@
 				F19C62CE2D733C320098B556 /* background.html in Resources */,
 				F19C62CF2D733C320098B556 /* modules in Resources */,
 				F19C62CC2D733C320098B556 /* manifest.json in Resources */,
-				F19C62C82D733C320098B556 /* manifest.firefox.json in Resources */,
 				F19C62C72D733C320098B556 /* snowpack in Resources */,
 				F19C62CB2D733C320098B556 /* contentScripts in Resources */,
 				F19C62C62D733C320098B556 /* background.js in Resources */,
-				F19C62C92D733C320098B556 /* manifest.chrome.json in Resources */,
 				F19C62CD2D733C320098B556 /* freshContent in Resources */,
 				F19C62D02D733C320098B556 /* assets in Resources */,
 			);
@@ -462,11 +452,9 @@
 				F19C62C32D733C320098B556 /* background.html in Resources */,
 				F19C62C42D733C320098B556 /* modules in Resources */,
 				F19C62C12D733C320098B556 /* manifest.json in Resources */,
-				F19C62BD2D733C320098B556 /* manifest.firefox.json in Resources */,
 				F19C62BC2D733C320098B556 /* snowpack in Resources */,
 				F19C62C02D733C320098B556 /* contentScripts in Resources */,
 				F19C62BB2D733C320098B556 /* background.js in Resources */,
-				F19C62BE2D733C320098B556 /* manifest.chrome.json in Resources */,
 				F19C62C22D733C320098B556 /* freshContent in Resources */,
 				F19C62C52D733C320098B556 /* assets in Resources */,
 			);
