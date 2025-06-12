@@ -2,3 +2,5 @@ build/
 node_modules/
 .vscode/
 *.zip
+.xcuserstate
+.DS_Store
