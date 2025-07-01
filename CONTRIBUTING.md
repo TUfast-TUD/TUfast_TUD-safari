@@ -14,7 +14,12 @@ Everything related to the browser extension can be found in `/src`: the `manifes
 
 ### Specialities in working with XCode
 XCode is setup to use the `/build` directory as src.
-When you build the app in XCode `npm run build` is automatically run (as a build phase)
+Setup NPM for Xcode building like this:
+```bash
+sudo ln -s $(which node) /usr/local/bin/node
+sudo ln -s $(which npm) /usr/local/bin/npm
+```
+Now, when you build the app in XCode `npm run build` is automatically run (as a build phase)
 
 Steps to contribute:
 
@@ -32,7 +37,7 @@ Steps to contribute:
 **Note:** as a member of the TUfast organization you can also work in this repo directly, e.g. you can create branches and push to them, making the contribution process easier.
 
 ## Used frameworks
-- **Build tool**: [Snowpack](https://www.snowpack.dev/). Run `npm run dev` to compile sass and ts files.
+- **Build tool**: [Snowpack](https://www.snowpack.dev/). Run `npm run dev` to compile sass and ts files.  *This might be broken at the moment, use `npm run build` instead*
 - **CSS-Preprocessor**: We are using [SASS](https://sass-lang.com/).
 - **Code style and linting**: We are using ESlint and prettier. Run `npm run test` to check your code style and linting before pushing code. Wrong formatting will result in a failing CI. You should configure your editor to automatically format on save with prettier for which VSCode provides [this extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode).
 
