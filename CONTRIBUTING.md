@@ -10,16 +10,25 @@ If you never worked with browser extensions before, you should read this very [n
 
 ## Working with this repo
 
-Everything related to the browser extension can be found in `/src`: the `manifest.json`, the `background.js`, and so on. Content scripts are in `/src/contentScripts`. In `/src/freshContent` you can find newly created content that is used in TUfast, e.g. the popup or settings-page. `/docs` does _not_ contain documentation for the code, but further instructions for users of TUfast. 
+Everything related to the browser extension can be found in `/src`: the `manifest.json`, the `background.js`, and so on. Content scripts are in `/src/contentScripts`. In `/src/freshContent` you can find newly created content that is used in TUfast, e.g. the popup or settings-page. `/docs` does _not_ contain documentation for the code, but further instructions for users of TUfast.
+
+### Specialities in working with XCode
+XCode is setup to use the `/build` directory as src.
+Setup NPM for Xcode building like this:
+```bash
+sudo ln -s $(which node) /usr/local/bin/node
+sudo ln -s $(which npm) /usr/local/bin/npm
+```
+Now, when you build the app in XCode `npm run build` is automatically run (as a build phase)
 
 Steps to contribute:
 
 1. Create your local clone of this repo `git clone <url-of-your-repo>`.
 3. Create a new feature branch directly from the main branch `git checkout -b <my_new_feature_branch>`.
 4. Install dependencies `npm ci`. (You need node package manager `npm` installed.)
-5. Run `npm run useChrome` or `npm run useFF` to select the browser you are developing for - this will copy the corresponding manifest.json.
-6. Run `npm run dev` while developing. This is will compile `.sass` and `.ts` files and watch for changes in your working tree.
-7. Load the `./build` directory as an unpacked extension in your browser to test the extension.
+5. Make your changes to `/src`.
+6. Open the XCode project inside `/TUfast-safari`, build inside XCode and deploy either to the Simulator or your local Mac.
+7. When Deploying to Mac, make sure to have "Allow unsigned extensions" checked in your Safari Developer Settings.
 8. Run `npm run test` locally before pushing code. This will also check if your code is formatted correctly. You can use [this extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) to automatically format your code (recommended) or use `npm run prettier:fix`. (See also below.) Wrong formatting will result in failing CI on GitHub!
 9. **Increase the version number in the `manifest*.json` files according to [SemVer](https://semver.org/). An increase in version number is strictly required for new TUfast releases!**
 10. Create a pull request against `main`.
@@ -28,7 +37,7 @@ Steps to contribute:
 **Note:** as a member of the TUfast organization you can also work in this repo directly, e.g. you can create branches and push to them, making the contribution process easier.
 
 ## Used frameworks
-- **Build tool**: [Snowpack](https://www.snowpack.dev/). Run `npm run dev` to compile sass and ts files.
+- **Build tool**: [Snowpack](https://www.snowpack.dev/). Run `npm run dev` to compile sass and ts files.  *This might be broken at the moment, use `npm run build` instead*
 - **CSS-Preprocessor**: We are using [SASS](https://sass-lang.com/).
 - **Code style and linting**: We are using ESlint and prettier. Run `npm run test` to check your code style and linting before pushing code. Wrong formatting will result in a failing CI. You should configure your editor to automatically format on save with prettier for which VSCode provides [this extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode).
 

@@ -1,0 +1,1038 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F19C62652D733C320098B556 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19C62642D733C320098B556 /* AppDelegate.swift */; };
+		F19C62672D733C320098B556 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19C62662D733C320098B556 /* SceneDelegate.swift */; };
+		F19C626A2D733C320098B556 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19C62682D733C320098B556 /* LaunchScreen.storyboard */; };
+		F19C626D2D733C320098B556 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19C626B2D733C320098B556 /* Main.storyboard */; };
+		F19C62762D733C320098B556 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19C62752D733C320098B556 /* AppDelegate.swift */; };
+		F19C62792D733C320098B556 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19C62772D733C320098B556 /* Main.storyboard */; };
+		F19C62812D733C320098B556 /* TUfast-safari Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F19C62802D733C320098B556 /* TUfast-safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F19C628B2D733C320098B556 /* TUfast-safari Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F19C628A2D733C320098B556 /* TUfast-safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F19C62912D733C320098B556 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = F19C62542D733C310098B556 /* Main.html */; };
+		F19C62922D733C320098B556 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = F19C62542D733C310098B556 /* Main.html */; };
+		F19C62932D733C320098B556 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F19C62562D733C310098B556 /* Icon.png */; };
+		F19C62942D733C320098B556 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F19C62562D733C310098B556 /* Icon.png */; };
+		F19C62952D733C320098B556 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = F19C62572D733C310098B556 /* Style.css */; };
+		F19C62962D733C320098B556 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = F19C62572D733C310098B556 /* Style.css */; };
+		F19C62972D733C320098B556 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = F19C62582D733C310098B556 /* Script.js */; };
+		F19C62982D733C320098B556 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = F19C62582D733C310098B556 /* Script.js */; };
+		F19C62992D733C320098B556 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19C62592D733C310098B556 /* ViewController.swift */; };
+		F19C629A2D733C320098B556 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19C62592D733C310098B556 /* ViewController.swift */; };
+		F19C629B2D733C320098B556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F19C625A2D733C320098B556 /* Assets.xcassets */; };
+		F19C629C2D733C320098B556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F19C625A2D733C320098B556 /* Assets.xcassets */; };
+		F19C629D2D733C320098B556 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19C625C2D733C320098B556 /* SafariWebExtensionHandler.swift */; };
+		F19C629E2D733C320098B556 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19C625C2D733C320098B556 /* SafariWebExtensionHandler.swift */; };
+		F19C62BB2D733C320098B556 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = F19C62B02D733C320098B556 /* background.js */; };
+		F19C62BC2D733C320098B556 /* snowpack in Resources */ = {isa = PBXBuildFile; fileRef = F19C62B12D733C320098B556 /* snowpack */; };
+		F19C62BF2D733C320098B556 /* styles in Resources */ = {isa = PBXBuildFile; fileRef = F19C62B42D733C320098B556 /* styles */; };
+		F19C62C02D733C320098B556 /* contentScripts in Resources */ = {isa = PBXBuildFile; fileRef = F19C62B52D733C320098B556 /* contentScripts */; };
+		F19C62C12D733C320098B556 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = F19C62B62D733C320098B556 /* manifest.json */; };
+		F19C62C22D733C320098B556 /* freshContent in Resources */ = {isa = PBXBuildFile; fileRef = F19C62B72D733C320098B556 /* freshContent */; };
+		F19C62C32D733C320098B556 /* background.html in Resources */ = {isa = PBXBuildFile; fileRef = F19C62B82D733C320098B556 /* background.html */; };
+		F19C62C42D733C320098B556 /* modules in Resources */ = {isa = PBXBuildFile; fileRef = F19C62B92D733C320098B556 /* modules */; };
+		F19C62C52D733C320098B556 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = F19C62BA2D733C320098B556 /* assets */; };
+		F19C62C62D733C320098B556 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = F19C62B02D733C320098B556 /* background.js */; };
+		F19C62C72D733C320098B556 /* snowpack in Resources */ = {isa = PBXBuildFile; fileRef = F19C62B12D733C320098B556 /* snowpack */; };
+		F19C62CA2D733C320098B556 /* styles in Resources */ = {isa = PBXBuildFile; fileRef = F19C62B42D733C320098B556 /* styles */; };
+		F19C62CB2D733C320098B556 /* contentScripts in Resources */ = {isa = PBXBuildFile; fileRef = F19C62B52D733C320098B556 /* contentScripts */; };
+		F19C62CC2D733C320098B556 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = F19C62B62D733C320098B556 /* manifest.json */; };
+		F19C62CD2D733C320098B556 /* freshContent in Resources */ = {isa = PBXBuildFile; fileRef = F19C62B72D733C320098B556 /* freshContent */; };
+		F19C62CE2D733C320098B556 /* background.html in Resources */ = {isa = PBXBuildFile; fileRef = F19C62B82D733C320098B556 /* background.html */; };
+		F19C62CF2D733C320098B556 /* modules in Resources */ = {isa = PBXBuildFile; fileRef = F19C62B92D733C320098B556 /* modules */; };
+		F19C62D02D733C320098B556 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = F19C62BA2D733C320098B556 /* assets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F19C62822D733C320098B556 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F19C624E2D733C310098B556 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F19C627F2D733C320098B556;
+			remoteInfo = "TUfast-safari Extension (iOS)";
+		};
+		F19C628C2D733C320098B556 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F19C624E2D733C310098B556 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F19C62892D733C320098B556;
+			remoteInfo = "TUfast-safari Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F19C62A42D733C320098B556 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F19C62812D733C320098B556 /* TUfast-safari Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19C62AB2D733C320098B556 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F19C628B2D733C320098B556 /* TUfast-safari Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F19C62552D733C310098B556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		F19C62562D733C310098B556 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		F19C62572D733C310098B556 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		F19C62582D733C310098B556 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		F19C62592D733C310098B556 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F19C625A2D733C320098B556 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F19C625C2D733C320098B556 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		F19C62612D733C320098B556 /* TUfast-safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TUfast-safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F19C62642D733C320098B556 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F19C62662D733C320098B556 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F19C62692D733C320098B556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F19C626C2D733C320098B556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F19C626E2D733C320098B556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F19C62732D733C320098B556 /* TUfast-safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TUfast-safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F19C62752D733C320098B556 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F19C62782D733C320098B556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F19C627A2D733C320098B556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F19C627B2D733C320098B556 /* TUfast-safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "TUfast-safari.entitlements"; sourceTree = "<group>"; };
+		F19C62802D733C320098B556 /* TUfast-safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TUfast-safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F19C62852D733C320098B556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F19C628A2D733C320098B556 /* TUfast-safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TUfast-safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F19C628F2D733C320098B556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F19C62902D733C320098B556 /* TUfast-safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "TUfast-safari.entitlements"; sourceTree = "<group>"; };
+		F19C62B02D733C320098B556 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = ../../build/background.js; sourceTree = "<group>"; };
+		F19C62B12D733C320098B556 /* snowpack */ = {isa = PBXFileReference; lastKnownFileType = folder; name = snowpack; path = ../../build/snowpack; sourceTree = "<group>"; };
+		F19C62B42D733C320098B556 /* styles */ = {isa = PBXFileReference; lastKnownFileType = folder; name = styles; path = ../../build/styles; sourceTree = "<group>"; };
+		F19C62B52D733C320098B556 /* contentScripts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = contentScripts; path = ../../build/contentScripts; sourceTree = "<group>"; };
+		F19C62B62D733C320098B556 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../build/manifest.json; sourceTree = "<group>"; };
+		F19C62B72D733C320098B556 /* freshContent */ = {isa = PBXFileReference; lastKnownFileType = folder; name = freshContent; path = ../../build/freshContent; sourceTree = "<group>"; };
+		F19C62B82D733C320098B556 /* background.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = background.html; path = ../../build/background.html; sourceTree = "<group>"; };
+		F19C62B92D733C320098B556 /* modules */ = {isa = PBXFileReference; lastKnownFileType = folder; name = modules; path = ../../build/modules; sourceTree = "<group>"; };
+		F19C62BA2D733C320098B556 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = ../../build/assets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F19C625E2D733C320098B556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19C62702D733C320098B556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19C627D2D733C320098B556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19C62872D733C320098B556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F19C624D2D733C310098B556 = {
+			isa = PBXGroup;
+			children = (
+				F19C62522D733C310098B556 /* Shared (App) */,
+				F19C625B2D733C320098B556 /* Shared (Extension) */,
+				F19C62632D733C320098B556 /* iOS (App) */,
+				F19C62742D733C320098B556 /* macOS (App) */,
+				F19C62842D733C320098B556 /* iOS (Extension) */,
+				F19C628E2D733C320098B556 /* macOS (Extension) */,
+				F19C62622D733C320098B556 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F19C62522D733C310098B556 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				F19C62592D733C310098B556 /* ViewController.swift */,
+				F19C625A2D733C320098B556 /* Assets.xcassets */,
+				F19C62532D733C310098B556 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		F19C62532D733C310098B556 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F19C62542D733C310098B556 /* Main.html */,
+				F19C62562D733C310098B556 /* Icon.png */,
+				F19C62572D733C310098B556 /* Style.css */,
+				F19C62582D733C310098B556 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F19C625B2D733C320098B556 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				F19C62AF2D733C320098B556 /* Resources */,
+				F19C625C2D733C320098B556 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		F19C62622D733C320098B556 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F19C62612D733C320098B556 /* TUfast-safari.app */,
+				F19C62732D733C320098B556 /* TUfast-safari.app */,
+				F19C62802D733C320098B556 /* TUfast-safari Extension.appex */,
+				F19C628A2D733C320098B556 /* TUfast-safari Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F19C62632D733C320098B556 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				F19C62642D733C320098B556 /* AppDelegate.swift */,
+				F19C62662D733C320098B556 /* SceneDelegate.swift */,
+				F19C62682D733C320098B556 /* LaunchScreen.storyboard */,
+				F19C626B2D733C320098B556 /* Main.storyboard */,
+				F19C626E2D733C320098B556 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		F19C62742D733C320098B556 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				F19C62752D733C320098B556 /* AppDelegate.swift */,
+				F19C62772D733C320098B556 /* Main.storyboard */,
+				F19C627A2D733C320098B556 /* Info.plist */,
+				F19C627B2D733C320098B556 /* TUfast-safari.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		F19C62842D733C320098B556 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				F19C62852D733C320098B556 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		F19C628E2D733C320098B556 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				F19C628F2D733C320098B556 /* Info.plist */,
+				F19C62902D733C320098B556 /* TUfast-safari.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		F19C62AF2D733C320098B556 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F19C62B02D733C320098B556 /* background.js */,
+				F19C62B12D733C320098B556 /* snowpack */,
+				F19C62B42D733C320098B556 /* styles */,
+				F19C62B52D733C320098B556 /* contentScripts */,
+				F19C62B62D733C320098B556 /* manifest.json */,
+				F19C62B72D733C320098B556 /* freshContent */,
+				F19C62B82D733C320098B556 /* background.html */,
+				F19C62B92D733C320098B556 /* modules */,
+				F19C62BA2D733C320098B556 /* assets */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F19C62602D733C320098B556 /* TUfast-safari (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F19C62A52D733C320098B556 /* Build configuration list for PBXNativeTarget "TUfast-safari (iOS)" */;
+			buildPhases = (
+				F1B8C0502D7340B200F77CE4 /* npm run build */,
+				F19C625D2D733C320098B556 /* Sources */,
+				F19C625E2D733C320098B556 /* Frameworks */,
+				F19C625F2D733C320098B556 /* Resources */,
+				F19C62A42D733C320098B556 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F19C62832D733C320098B556 /* PBXTargetDependency */,
+			);
+			name = "TUfast-safari (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "TUfast-safari (iOS)";
+			productReference = F19C62612D733C320098B556 /* TUfast-safari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F19C62722D733C320098B556 /* TUfast-safari (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F19C62AC2D733C320098B556 /* Build configuration list for PBXNativeTarget "TUfast-safari (macOS)" */;
+			buildPhases = (
+				F1B8C0512D73410300F77CE4 /* npm run build */,
+				F19C626F2D733C320098B556 /* Sources */,
+				F19C62702D733C320098B556 /* Frameworks */,
+				F19C62712D733C320098B556 /* Resources */,
+				F19C62AB2D733C320098B556 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F19C628D2D733C320098B556 /* PBXTargetDependency */,
+			);
+			name = "TUfast-safari (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "TUfast-safari (macOS)";
+			productReference = F19C62732D733C320098B556 /* TUfast-safari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F19C627F2D733C320098B556 /* TUfast-safari Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F19C62A12D733C320098B556 /* Build configuration list for PBXNativeTarget "TUfast-safari Extension (iOS)" */;
+			buildPhases = (
+				F19C627C2D733C320098B556 /* Sources */,
+				F19C627D2D733C320098B556 /* Frameworks */,
+				F19C627E2D733C320098B556 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TUfast-safari Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "TUfast-safari Extension (iOS)";
+			productReference = F19C62802D733C320098B556 /* TUfast-safari Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		F19C62892D733C320098B556 /* TUfast-safari Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F19C62A82D733C320098B556 /* Build configuration list for PBXNativeTarget "TUfast-safari Extension (macOS)" */;
+			buildPhases = (
+				F19C62862D733C320098B556 /* Sources */,
+				F19C62872D733C320098B556 /* Frameworks */,
+				F19C62882D733C320098B556 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TUfast-safari Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "TUfast-safari Extension (macOS)";
+			productReference = F19C628A2D733C320098B556 /* TUfast-safari Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F19C624E2D733C310098B556 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					F19C62602D733C320098B556 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					F19C62722D733C320098B556 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					F19C627F2D733C320098B556 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					F19C62892D733C320098B556 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = F19C62512D733C310098B556 /* Build configuration list for PBXProject "TUfast-safari" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F19C624D2D733C310098B556;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F19C62622D733C320098B556 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F19C62602D733C320098B556 /* TUfast-safari (iOS) */,
+				F19C62722D733C320098B556 /* TUfast-safari (macOS) */,
+				F19C627F2D733C320098B556 /* TUfast-safari Extension (iOS) */,
+				F19C62892D733C320098B556 /* TUfast-safari Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F19C625F2D733C320098B556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19C62932D733C320098B556 /* Icon.png in Resources */,
+				F19C626A2D733C320098B556 /* LaunchScreen.storyboard in Resources */,
+				F19C62912D733C320098B556 /* Main.html in Resources */,
+				F19C62972D733C320098B556 /* Script.js in Resources */,
+				F19C629B2D733C320098B556 /* Assets.xcassets in Resources */,
+				F19C626D2D733C320098B556 /* Main.storyboard in Resources */,
+				F19C62952D733C320098B556 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19C62712D733C320098B556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19C62942D733C320098B556 /* Icon.png in Resources */,
+				F19C62962D733C320098B556 /* Style.css in Resources */,
+				F19C62792D733C320098B556 /* Main.storyboard in Resources */,
+				F19C62982D733C320098B556 /* Script.js in Resources */,
+				F19C629C2D733C320098B556 /* Assets.xcassets in Resources */,
+				F19C62922D733C320098B556 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19C627E2D733C320098B556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19C62CA2D733C320098B556 /* styles in Resources */,
+				F19C62CE2D733C320098B556 /* background.html in Resources */,
+				F19C62CF2D733C320098B556 /* modules in Resources */,
+				F19C62CC2D733C320098B556 /* manifest.json in Resources */,
+				F19C62C72D733C320098B556 /* snowpack in Resources */,
+				F19C62CB2D733C320098B556 /* contentScripts in Resources */,
+				F19C62C62D733C320098B556 /* background.js in Resources */,
+				F19C62CD2D733C320098B556 /* freshContent in Resources */,
+				F19C62D02D733C320098B556 /* assets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19C62882D733C320098B556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19C62BF2D733C320098B556 /* styles in Resources */,
+				F19C62C32D733C320098B556 /* background.html in Resources */,
+				F19C62C42D733C320098B556 /* modules in Resources */,
+				F19C62C12D733C320098B556 /* manifest.json in Resources */,
+				F19C62BC2D733C320098B556 /* snowpack in Resources */,
+				F19C62C02D733C320098B556 /* contentScripts in Resources */,
+				F19C62BB2D733C320098B556 /* background.js in Resources */,
+				F19C62C22D733C320098B556 /* freshContent in Resources */,
+				F19C62C52D733C320098B556 /* assets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F1B8C0502D7340B200F77CE4 /* npm run build */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "npm run build";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/zsh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nnpm run build\nexit 0\n";
+		};
+		F1B8C0512D73410300F77CE4 /* npm run build */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "npm run build";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/zsh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nnpm run build\nexit 0\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F19C625D2D733C320098B556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19C62992D733C320098B556 /* ViewController.swift in Sources */,
+				F19C62652D733C320098B556 /* AppDelegate.swift in Sources */,
+				F19C62672D733C320098B556 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19C626F2D733C320098B556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19C629A2D733C320098B556 /* ViewController.swift in Sources */,
+				F19C62762D733C320098B556 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19C627C2D733C320098B556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19C629D2D733C320098B556 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19C62862D733C320098B556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19C629E2D733C320098B556 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F19C62832D733C320098B556 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F19C627F2D733C320098B556 /* TUfast-safari Extension (iOS) */;
+			targetProxy = F19C62822D733C320098B556 /* PBXContainerItemProxy */;
+		};
+		F19C628D2D733C320098B556 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F19C62892D733C320098B556 /* TUfast-safari Extension (macOS) */;
+			targetProxy = F19C628C2D733C320098B556 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F19C62542D733C310098B556 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F19C62552D733C310098B556 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		F19C62682D733C320098B556 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F19C62692D733C320098B556 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F19C626B2D733C320098B556 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F19C626C2D733C320098B556 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F19C62772D733C320098B556 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F19C62782D733C320098B556 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F19C629F2D733C320098B556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F19C62A02D733C320098B556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F19C62A22D733C320098B556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "TUfast-safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TUfast.TUfast-safari.Extension";
+				PRODUCT_NAME = "TUfast-safari Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F19C62A32D733C320098B556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "TUfast-safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TUfast.TUfast-safari.Extension";
+				PRODUCT_NAME = "TUfast-safari Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F19C62A62D733C320098B556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "TUfast-safari";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TUfast.TUfast-safari";
+				PRODUCT_NAME = "TUfast-safari";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F19C62A72D733C320098B556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "TUfast-safari";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TUfast.TUfast-safari";
+				PRODUCT_NAME = "TUfast-safari";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F19C62A92D733C320098B556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/TUfast-safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "TUfast-safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TUfast.TUfast-safari.Extension";
+				PRODUCT_NAME = "TUfast-safari Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F19C62AA2D733C320098B556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/TUfast-safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "TUfast-safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TUfast.TUfast-safari.Extension";
+				PRODUCT_NAME = "TUfast-safari Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F19C62AD2D733C320098B556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/TUfast-safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "TUfast-safari";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TUfast.TUfast-safari";
+				PRODUCT_NAME = "TUfast-safari";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F19C62AE2D733C320098B556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/TUfast-safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "TUfast-safari";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TUfast.TUfast-safari";
+				PRODUCT_NAME = "TUfast-safari";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F19C62512D733C310098B556 /* Build configuration list for PBXProject "TUfast-safari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F19C629F2D733C320098B556 /* Debug */,
+				F19C62A02D733C320098B556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F19C62A12D733C320098B556 /* Build configuration list for PBXNativeTarget "TUfast-safari Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F19C62A22D733C320098B556 /* Debug */,
+				F19C62A32D733C320098B556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F19C62A52D733C320098B556 /* Build configuration list for PBXNativeTarget "TUfast-safari (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F19C62A62D733C320098B556 /* Debug */,
+				F19C62A72D733C320098B556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F19C62A82D733C320098B556 /* Build configuration list for PBXNativeTarget "TUfast-safari Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F19C62A92D733C320098B556 /* Debug */,
+				F19C62AA2D733C320098B556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F19C62AC2D733C320098B556 /* Build configuration list for PBXNativeTarget "TUfast-safari (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F19C62AD2D733C320098B556 /* Debug */,
+				F19C62AE2D733C320098B556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F19C624E2D733C310098B556 /* Project object */;
+}
